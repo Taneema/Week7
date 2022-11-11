@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Slideshow</title>
+</head>
+<body>
+<h1 class="catTitle"> Cat lovers </h1> 
+<div class="container">
+    <div class="catSlides switch">
+        <div class="numbertext">1 / 6</div>
+        <img src="images/cat1.jpg" style="width:100%">
+      </div>
+    
+      <div class="catSlides switch">
+        <div class="numbertext">2 / 6</div>
+        <img src="images/cat2.jpg" style="width:100%">
+      </div>
+    
+      <div class="catSlides switch">
+        <div class="numbertext">3 / 6</div>
+        <img src="images/cat3.jpg" style="width:100%">
+      </div>
+      <div class="catSlides switch">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/cat4.jpg" style="width:100%">
+      </div>
+      <div class="catSlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/cat5.jpg" style="width:100%">
+      </div>
+      <div class="catSlides switch">
+        <div class="numbertext">6 / 6</div>
+        <img src="images/cat6.jpg" style="width:100%">
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a> 
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+     <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+</div> 
+<script src="script.js"></script>  
+</body>
+</html>
